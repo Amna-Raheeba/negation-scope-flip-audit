@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "negation-scope-flip-audit"
+version = "0.1.0"
+description = "A controlled scope-trap injection audit for clinical finding extraction: plants findings with known polarity, rewrites them with a taxonomy of negation-scope traps, and measures the polarity-flip rate per trap family for window-based vs scope-based extractors."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amna Raheeba" }]
+
+[tool.setuptools]
+packages = ["negation_scope"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
