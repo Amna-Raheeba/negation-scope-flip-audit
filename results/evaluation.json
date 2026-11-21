@@ -1,0 +1,266 @@
+{
+  "config": {
+    "base_seed": 20261121,
+    "notes_per_family": 150
+  },
+  "n_notes": 1500,
+  "n_mentions": 2129,
+  "rows": [
+    {
+      "family": "plain_positive",
+      "extractor": "keyword",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "plain_positive",
+      "extractor": "window",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "plain_positive",
+      "extractor": "scope",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "plain_negative",
+      "extractor": "keyword",
+      "mentions": 150,
+      "flips": 150,
+      "flip_rate": 1.0
+    },
+    {
+      "family": "plain_negative",
+      "extractor": "window",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "plain_negative",
+      "extractor": "scope",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "coordination_beyond_window",
+      "extractor": "keyword",
+      "mentions": 450,
+      "flips": 450,
+      "flip_rate": 1.0
+    },
+    {
+      "family": "coordination_beyond_window",
+      "extractor": "window",
+      "mentions": 450,
+      "flips": 150,
+      "flip_rate": 0.333333
+    },
+    {
+      "family": "coordination_beyond_window",
+      "extractor": "scope",
+      "mentions": 450,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "pseudo_negation",
+      "extractor": "keyword",
+      "mentions": 179,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "pseudo_negation",
+      "extractor": "window",
+      "mentions": 179,
+      "flips": 74,
+      "flip_rate": 0.413408
+    },
+    {
+      "family": "pseudo_negation",
+      "extractor": "scope",
+      "mentions": 179,
+      "flips": 74,
+      "flip_rate": 0.413408
+    },
+    {
+      "family": "historical_family",
+      "extractor": "keyword",
+      "mentions": 150,
+      "flips": 150,
+      "flip_rate": 1.0
+    },
+    {
+      "family": "historical_family",
+      "extractor": "window",
+      "mentions": 150,
+      "flips": 150,
+      "flip_rate": 1.0
+    },
+    {
+      "family": "historical_family",
+      "extractor": "scope",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "double_negation",
+      "extractor": "keyword",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "double_negation",
+      "extractor": "window",
+      "mentions": 150,
+      "flips": 150,
+      "flip_rate": 1.0
+    },
+    {
+      "family": "double_negation",
+      "extractor": "scope",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "subordinate_clause",
+      "extractor": "keyword",
+      "mentions": 300,
+      "flips": 150,
+      "flip_rate": 0.5
+    },
+    {
+      "family": "subordinate_clause",
+      "extractor": "window",
+      "mentions": 300,
+      "flips": 150,
+      "flip_rate": 0.5
+    },
+    {
+      "family": "subordinate_clause",
+      "extractor": "scope",
+      "mentions": 300,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "postposed_negation",
+      "extractor": "keyword",
+      "mentions": 150,
+      "flips": 150,
+      "flip_rate": 1.0
+    },
+    {
+      "family": "postposed_negation",
+      "extractor": "window",
+      "mentions": 150,
+      "flips": 44,
+      "flip_rate": 0.293333
+    },
+    {
+      "family": "postposed_negation",
+      "extractor": "scope",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "contrastive_scope_break",
+      "extractor": "keyword",
+      "mentions": 300,
+      "flips": 150,
+      "flip_rate": 0.5
+    },
+    {
+      "family": "contrastive_scope_break",
+      "extractor": "window",
+      "mentions": 300,
+      "flips": 145,
+      "flip_rate": 0.483333
+    },
+    {
+      "family": "contrastive_scope_break",
+      "extractor": "scope",
+      "mentions": 300,
+      "flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "family": "long_distance_scope",
+      "extractor": "keyword",
+      "mentions": 150,
+      "flips": 150,
+      "flip_rate": 1.0
+    },
+    {
+      "family": "long_distance_scope",
+      "extractor": "window",
+      "mentions": 150,
+      "flips": 150,
+      "flip_rate": 1.0
+    },
+    {
+      "family": "long_distance_scope",
+      "extractor": "scope",
+      "mentions": 150,
+      "flips": 0,
+      "flip_rate": 0.0
+    }
+  ],
+  "aggregates": {
+    "keyword_flip_rate": 0.634101,
+    "keyword_trap_flip_rate": 0.656096,
+    "keyword_worst_family": "coordination_beyond_window",
+    "keyword_worst_family_flip_rate": 1.0,
+    "keyword_flip_rate__plain_positive": 0.0,
+    "keyword_flip_rate__plain_negative": 1.0,
+    "keyword_flip_rate__coordination_beyond_window": 1.0,
+    "keyword_flip_rate__pseudo_negation": 0.0,
+    "keyword_flip_rate__historical_family": 1.0,
+    "keyword_flip_rate__double_negation": 0.0,
+    "keyword_flip_rate__subordinate_clause": 0.5,
+    "keyword_flip_rate__postposed_negation": 1.0,
+    "keyword_flip_rate__contrastive_scope_break": 0.5,
+    "keyword_flip_rate__long_distance_scope": 1.0,
+    "window_flip_rate": 0.47581,
+    "window_trap_flip_rate": 0.553855,
+    "window_worst_family": "historical_family",
+    "window_worst_family_flip_rate": 1.0,
+    "window_flip_rate__plain_positive": 0.0,
+    "window_flip_rate__plain_negative": 0.0,
+    "window_flip_rate__coordination_beyond_window": 0.333333,
+    "window_flip_rate__pseudo_negation": 0.413408,
+    "window_flip_rate__historical_family": 1.0,
+    "window_flip_rate__double_negation": 1.0,
+    "window_flip_rate__subordinate_clause": 0.5,
+    "window_flip_rate__postposed_negation": 0.293333,
+    "window_flip_rate__contrastive_scope_break": 0.483333,
+    "window_flip_rate__long_distance_scope": 1.0,
+    "scope_flip_rate": 0.034758,
+    "scope_trap_flip_rate": 0.040459,
+    "scope_worst_family": "pseudo_negation",
+    "scope_worst_family_flip_rate": 0.413408,
+    "scope_flip_rate__plain_positive": 0.0,
+    "scope_flip_rate__plain_negative": 0.0,
+    "scope_flip_rate__coordination_beyond_window": 0.0,
+    "scope_flip_rate__pseudo_negation": 0.413408,
+    "scope_flip_rate__historical_family": 0.0,
+    "scope_flip_rate__double_negation": 0.0,
+    "scope_flip_rate__subordinate_clause": 0.0,
+    "scope_flip_rate__postposed_negation": 0.0,
+    "scope_flip_rate__contrastive_scope_break": 0.0,
+    "scope_flip_rate__long_distance_scope": 0.0,
+    "window_scope_trap_gap": 0.513396,
+    "window_scope_worst_gap": 1.0
+  }
+}
