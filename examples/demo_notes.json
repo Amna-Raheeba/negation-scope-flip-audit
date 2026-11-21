@@ -1,0 +1,284 @@
+{
+  "notes": [
+    {
+      "note_id": "plain_positive-0000",
+      "family": "plain_positive",
+      "text": "Examination reveals fatigue.",
+      "tokens": [
+        "examination",
+        "reveals",
+        "fatigue",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "fatigue",
+          "start": 2,
+          "end": 3,
+          "polarity": "present",
+          "family": "plain_positive"
+        }
+      ]
+    },
+    {
+      "note_id": "plain_negative-0000",
+      "family": "plain_negative",
+      "text": "No abdominal pain was noted. vitals are stable.",
+      "tokens": [
+        "no",
+        "abdominal",
+        "pain",
+        "was",
+        "noted",
+        ".",
+        "vitals",
+        "are",
+        "stable",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "abdominal pain",
+          "start": 1,
+          "end": 3,
+          "polarity": "absent",
+          "family": "plain_negative"
+        }
+      ]
+    },
+    {
+      "note_id": "coordination_beyond_window-0000",
+      "family": "coordination_beyond_window",
+      "text": "The patient denies dizziness, fatigue, and dyspnea.",
+      "tokens": [
+        "the",
+        "patient",
+        "denies",
+        "dizziness",
+        ",",
+        "fatigue",
+        ",",
+        "and",
+        "dyspnea",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "dizziness",
+          "start": 3,
+          "end": 4,
+          "polarity": "absent",
+          "family": "coordination_beyond_window"
+        },
+        {
+          "finding": "fatigue",
+          "start": 5,
+          "end": 6,
+          "polarity": "absent",
+          "family": "coordination_beyond_window"
+        },
+        {
+          "finding": "dyspnea",
+          "start": 8,
+          "end": 9,
+          "polarity": "absent",
+          "family": "coordination_beyond_window"
+        }
+      ]
+    },
+    {
+      "note_id": "pseudo_negation-0000",
+      "family": "pseudo_negation",
+      "text": "No improvement in the pleural effusion despite treatment.",
+      "tokens": [
+        "no",
+        "improvement",
+        "in",
+        "the",
+        "pleural",
+        "effusion",
+        "despite",
+        "treatment",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "pleural effusion",
+          "start": 4,
+          "end": 6,
+          "polarity": "present",
+          "family": "pseudo_negation"
+        }
+      ]
+    },
+    {
+      "note_id": "historical_family-0000",
+      "family": "historical_family",
+      "text": "The patient's father had vomiting. vitals are stable.",
+      "tokens": [
+        "the",
+        "patient's",
+        "father",
+        "had",
+        "vomiting",
+        ".",
+        "vitals",
+        "are",
+        "stable",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "vomiting",
+          "start": 4,
+          "end": 5,
+          "polarity": "absent",
+          "family": "historical_family"
+        }
+      ]
+    },
+    {
+      "note_id": "double_negation-0000",
+      "family": "double_negation",
+      "text": "It is not true that the patient is free of hemoptysis. the nurse was notified.",
+      "tokens": [
+        "it",
+        "is",
+        "not",
+        "true",
+        "that",
+        "the",
+        "patient",
+        "is",
+        "free",
+        "of",
+        "hemoptysis",
+        ".",
+        "the",
+        "nurse",
+        "was",
+        "notified",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "hemoptysis",
+          "start": 10,
+          "end": 11,
+          "polarity": "present",
+          "family": "double_negation"
+        }
+      ]
+    },
+    {
+      "note_id": "subordinate_clause-0000",
+      "family": "subordinate_clause",
+      "text": "The patient, who denies hemoptysis, reports tachycardia.",
+      "tokens": [
+        "the",
+        "patient",
+        ",",
+        "who",
+        "denies",
+        "hemoptysis",
+        ",",
+        "reports",
+        "tachycardia",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "hemoptysis",
+          "start": 5,
+          "end": 6,
+          "polarity": "absent",
+          "family": "subordinate_clause"
+        },
+        {
+          "finding": "tachycardia",
+          "start": 8,
+          "end": 9,
+          "polarity": "present",
+          "family": "subordinate_clause"
+        }
+      ]
+    },
+    {
+      "note_id": "postposed_negation-0000",
+      "family": "postposed_negation",
+      "text": "Wheeze: none reported.",
+      "tokens": [
+        "wheeze",
+        ":",
+        "none",
+        "reported",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "wheeze",
+          "start": 0,
+          "end": 1,
+          "polarity": "absent",
+          "family": "postposed_negation"
+        }
+      ]
+    },
+    {
+      "note_id": "contrastive_scope_break-0000",
+      "family": "contrastive_scope_break",
+      "text": "The patient denies tachycardia but reports severe consolidation.",
+      "tokens": [
+        "the",
+        "patient",
+        "denies",
+        "tachycardia",
+        "but",
+        "reports",
+        "severe",
+        "consolidation",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "tachycardia",
+          "start": 3,
+          "end": 4,
+          "polarity": "absent",
+          "family": "contrastive_scope_break"
+        },
+        {
+          "finding": "consolidation",
+          "start": 7,
+          "end": 8,
+          "polarity": "present",
+          "family": "contrastive_scope_break"
+        }
+      ]
+    },
+    {
+      "note_id": "long_distance_scope-0000",
+      "family": "long_distance_scope",
+      "text": "No clinical or radiological evidence of vomiting.",
+      "tokens": [
+        "no",
+        "clinical",
+        "or",
+        "radiological",
+        "evidence",
+        "of",
+        "vomiting",
+        "."
+      ],
+      "mentions": [
+        {
+          "finding": "vomiting",
+          "start": 6,
+          "end": 7,
+          "polarity": "absent",
+          "family": "long_distance_scope"
+        }
+      ]
+    }
+  ]
+}
